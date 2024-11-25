@@ -1,0 +1,57 @@
+Lexemes              Token Name           Attribute Value     
+#                    Special symbol       Hash                
+include              include              -----               
+<                    Special symbol       Less than           
+iostream             id                   Pointer to symbol table
+>                    Special symbol       Greater than        
+int                  int                  -----               
+main                 main                 -----               
+(                    Special symbol       Opening braces      
+)                    Special symbol       Closing braces      
+{                    Special symbol       Left curly braces   
+int                  int                  -----               
+a                    id                   Pointer to symbol table
+,                    Special symbol       Comma               
+b                    id                   Pointer to symbol table
+,                    Special symbol       Comma               
+sum                  id                   Pointer to symbol table
+;                    Special symbol       Semicolon           
+sum                  id                   Pointer to symbol table
+=                    Operator             Assignment          
+50                   Number               Constant            
++                    Operator             Addition            
+5.5                  Number               Constant            
+std                  std                  -----               
+:                    Special symbol       Colon               
+:                    Special symbol       Colon               
+cout                 id                   Pointer to symbol table
+<                    Special symbol       Less than           
+<                    Special symbol       Less than           
+"                    Special symbol       Quote               
+Hello                id                   Pointer to symbol table
+,                    Special symbol       Comma               
+World                id                   Pointer to symbol table
+!                    Special symbol       Exclamatory         
+"                    Special symbol       Quote               
+<                    Special symbol       Less than           
+<                    Special symbol       Less than           
+std                  std                  -----               
+:                    Special symbol       Colon               
+:                    Special symbol       Colon               
+endl                 id                   Pointer to symbol table
+;                    Special symbol       Semicolon           
+return               return               -----               
+0                    Number               Constant            
+;                    Special symbol       Semicolon           
+}                    Special symbol       Right curly braces  
+
+Variables:
+Name: main, Type: int
+Name: a, Type: int
+Name: b, Type: int
+Name: sum, Type: int
+
+Constants:
+Value: 50, Type: int
+Value: 5.5, Type: float
+Value: 0, Type: int
